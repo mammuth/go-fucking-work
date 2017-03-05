@@ -1,9 +1,12 @@
 var goFuckingWorkURL = "https://mammuth.github.io/go-fucking-work/";
 
 var unprodctiveURLs = [
-  "facebook.com",
-  "reddit.com",
   "xkcd.com", 
+  "heise.de",
+  "feedly.com",
+  "facebook.com",
+  "twitter.com",
+  "reddit.com",
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
