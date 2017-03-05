@@ -6,7 +6,7 @@ A minimalist (19 lines of JS) chrome extension that redirects domains like faceb
 - Clone the repo
 - Go to chrome://extensions and enable developer mode
 - Click on Load unpacked extension
-- Load the folder `browser-extensions/chrome/src` into your Chrome extension
+- Load the folder `browser-extensions/chrome/src`
 
 #### How To Change the Blocked Domains
 Just modify the array in `browser-extensions/chrome/src/background.js`
