@@ -8,7 +8,6 @@
          overflow-y: scroll;
          overflow-x: hidden;
      }
-
      #quote {
          font-size: 90px;
          font-weight: 800;
@@ -23,28 +22,27 @@
 </head>
 
 <body>
-   <div id="quote"></div>
-   <script type="text/javascript">
-      var quotes = [
-      "GO FUCKING WORK.",
-      "TICK TOCK. FUCKING WORK.",
-      "REMEMBER WORK? FUCKING DO IT.",
-      "FUCKING WORK. NOW.",
-      "WHAT THE FUCK? GO WORK.",
-      "WORK YOU FUCKITY FUCK.",
-      "GO LOOK AT THE FUCKING SKY IF YOU NEED A BREAK.",
-      "STOP WASTING TIME AND WORK."
-      ];
+    <div id="quote"></div>
 
-      function getQuote () {
-         return quotes[Math.floor(Math.random() * (quotes.length-1))];
-     }
+    <script type="text/javascript">
+        var quotes = [
+            "GO FUCKING WORK.",
+            "TICK TOCK. FUCKING WORK.",
+            "REMEMBER WORK? FUCKING DO IT.",
+            "FUCKING WORK. NOW.",
+            "WHAT THE FUCK? GO WORK.",
+            "WORK YOU FUCKITY FUCK.",
+            "GO LOOK AT THE FUCKING SKY IF YOU NEED A BREAK.",
+            "STOP WASTING TIME AND WORK."
+        ];
+        function getQuote () {
+            return quotes[Math.floor(Math.random() * (quotes.length-1))];
+        }
+        function setQuote() {
+            document.querySelector("#quote").textContent = getQuote();
+        }
 
-     function setQuote() {
-         document.querySelector("#quote").textContent = getQuote();
-     }
-
-     window.onload = setQuote;
- </script>
+        window.onload = setQuote;
+   </script>
 </body>
 </html>
