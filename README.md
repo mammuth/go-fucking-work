@@ -1,5 +1,12 @@
 # Go fucking work
 
-Get some fucking work done.  
-Redirect fucking unproductive sites to [motivational messages](http://vrachieru.github.io/go-fucking-work/).  
-A [gofuckingwork.com](http://www.gofuckingwork.com) knock-off to experiment with browser extensions.
+A minimalist chrome extension that redirects domains like facebook.com or 9gag.com to https://mammuth.github.io/go-fucking-work/ where you will be faced with really motivating phrases.
+
+### How To Use
+- Clone the repo
+- Go to chrome://extensions and enable developer mode
+- Click on Load unpacked extension
+- Load the folder browser-extensions/chrome/src into your Chrome extension
+
+#### How To Change the blocked domains
+Just modify the array in browser-extensions/chrome/src/background.js
