@@ -1,11 +1,9 @@
-var goFuckingWorkURL = "http://vrachieru.github.com/go-fucking-work";
+var goFuckingWorkURL = "https://mammuth.github.io/go-fucking-work/";
 
 var unprodctiveURLs = [
-  "9gag.com",
-  "xkcd.com",
-  "theoatmeal.com",
   "facebook.com",
-  "500px.com"
+  "reddit.com",
+  "xkcd.com", 
 ]
 
 chrome.webRequest.onBeforeRequest.addListener(
