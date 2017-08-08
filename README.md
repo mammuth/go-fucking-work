@@ -1,6 +1,6 @@
 # Go fucking work
 
-A minimalist (19 lines of JS) chrome extension that redirects domains like facebook.com or 9gag.com to https://mammuth.github.io/go-fucking-work/ where you will be faced with really motivating phrases.
+A minimalistic (19 lines of JS) chrome extension that redirects domains like facebook.com or 9gag.com to https://mammuth.github.io/go-fucking-work/ where you will be faced with really motivating phrases.
 
 ### How To Use
 - Clone the repo
